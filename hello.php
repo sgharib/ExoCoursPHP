@@ -1,5 +1,5 @@
 <?php
-
+echo '<p>' . 'Bonjour ' . $_GET['firstname']. ' ' .$_GET['surname'] . '</p>';
 echo '<h1>Bonjour Ã  tous. C\'est le premier script PHP, fichier hello.php dans c:/MAMP/htdocs</h1>';
 // La fonction array permet de créer un array
 $prenoms = array ('François', 'Michel', 'Nicole', 'Véronique', 'Benoît');
